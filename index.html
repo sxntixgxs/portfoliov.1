@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Enlazar el archivo CSS -->
+    <link href="/styles/home.css" rel="stylesheet">
+</head>
+<body class="antialiased">
+    <div id="container_all" class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <header class="text-center py-8">
+            <div class="flex items-center justify-center mb-4">
+                <!-- Foto de perfil -->
+                <div class="w-32">
+                    <img src="resources/222663.jpg" alt="Foto de perfil" class="rounded-full w-full">
+                </div>
+                <!-- Información de perfil -->
+                <div class="ml-4 text-left">
+                    <div class="name text-3xl font-bold">Santiago Sandoval Torres</div>
+                    <div class="devPresentation text-lg text-white-700 mt-2">Backend Developer</div>
+                    <div class="location text-sm text-white-500 mt-2">Colombia</div>
+                    <div class="flex items-center space-x-4">
+                        <!-- Botón de LinkedIn -->
+                        <a href="https://www.linkedin.com/in/santiago-sandoval-torres-52ab632b1/" 
+                            target="_blank"
+                        class="w-9 h-9 tech-item text-white rounded-lg flex items-center justify-center hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300 btn-hover">
+                            <svg class="w-6 h-6 btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect width="4" height="12" x="2" y="9"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>                    
+                        <!-- Botón de GitHub -->
+                        <a class="w-9 h-9 tech-item text-white rounded-lg flex items-center justify-center hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-300 btn-hover">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github btn-icon">
+                                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                            </svg>
+                        </a>
+                    
+                        <!-- Correo electrónico -->
+                        <a class="w-9 h-9 tech-item text-white rounded-lg flex items-center justify-center hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-300 btn-hover">
+                            <svg fill="currentColor" width="24" height="24" viewBox="0 0 490 490" xmlns="http://www.w3.org/2000/svg" class="lucide btn-icon">
+                                <path d="M372.071,0H117.939L0,287.541V490h490V287.541L372.071,0z M132.07,20.851h225.87L464.2,287.541H352.828l-23.406,39.997  H160.577l-23.406-39.997H25.8L132.07,20.851z M469.149,469.149H20.851V308.392h104.367l23.406,39.998h192.75l23.406-39.998h104.368  V469.149z"/>
+                            </svg>
+                        </a>
+                        
+                        
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="contactbar mt-4 flex justify-center space-x-4 py-8 mt-12 border-t">
+
+                
+
+            </div>
+        </header>
+        <!-- Main Content -->
+        <main class="space-y-12">
+            <section class="aboutme">
+                <h2 class="text-2xl font-semibold mb-4 text-center">About me</h2>
+                <p class="text-white-700 text-center">I’m Santiago Sandoval Torres, at 20 years old, I’m not only delving into the world of biomedical engineering but also carving out my niche as a junior backend developer. My journey began with a curiosity for electronics and has grown into a hands-on engagement with technology to create solutions.
+
+                    In my current role at CampusLands, I’ve honed my skills in Java, Python, Spring Boot, and SQL, contributing to robust backend solutions. With a steadfast commitment to learning and personal growth, I continue to enhance my technical expertise while acknowledging the foundational knowledge gained from biomedical studies.</p>
+            </section>
+            <section class="techstack">
+                <h2 class="text-2xl font-semibold mb-4 text-center">Tech Stack</h2>
+                <div class="flex flex-wrap gap-4 justify-center">
+                    <!-- Repite esta estructura para cada tecnología -->
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow" >
+                        <img src="/resources/spring.png" alt="spring" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">SpringBoot</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/java.png" alt="Java" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">Java</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/python.png" alt="Python" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">Python</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/mysql.svg" alt="MySQL" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">MySQL</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/postgresql.png" alt="PostgreSQL" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">PostgreSQL</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/firebase.png" alt="Firebase" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">Firebase</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/docker.png" alt="Docker" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">Docker</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/git.png" alt="git" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">Git</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/javascript.png" alt="JavaScript" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">JavaScript</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/wordpress.png" alt="WordPress" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">WordPress</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/tailwind.png" alt="Tailwind" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">Tailwind</span>
+                    </div>
+                    <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                        <img src="/resources/bulma.png" alt="Bulma" class="w-8 h-8 mr-2">
+                        <span class="text-white-700 font-medium">Bulma</span>
+                    </div>
+                    <!-- Agrega más tecnologías según sea necesario -->
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="text-center py-8 mt-12 border-t">
+            <div class="contactbar flex justify-center space-x-4">
+                <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                    <img src="/resources/email.png" alt="email" class="w-8 h-8 mr-2">
+                    <span class="text-white-700 font-medium">Email</span>
+                </div>
+                <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                    <img src="/resources/linkedin.png" alt="linkedin" class="w-8 h-8 mr-2">
+                    <span class="text-white-700 font-medium">linkedin</span>
+                </div>
+                <div class="tech-item flex items-center p-2 rounded-lg shadow">
+                    <img src="/resources/github.png" alt="GitHub" class="w-8 h-8 mr-2">
+                    <span class="text-white-700 font-medium">GitHub</span>
+                </div>
+            </div>
+            <p class="text-white-600 mt-4">© 2024 Santiago Sandoval Torres</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* Fondo de la página */
+body {
+    background-color: #10110f; /* Fondo oscuro */
+    color: #E8E8E8; /* Color del texto */
+}
+
+/* Contenedor principal */
+#container_all {
+    background-color: #10110f; /* Fondo del contenedor */
+    border-radius: 8px; /* Bordes redondeados opcional */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
+/* Imagen de perfil */
+img.rounded-full {
+    border: 2px solid #00C853; /* Borde verde */
+}
+
+/* Estilo de los encabezados en secciones */
+.aboutme h2,
+.techstack h2 {
+    color: #ffffff; /* Color blanco para los encabezados */
+}
+
+        /* Estilo personalizado para el ícono */
+        .btn-icon {
+            transition: color 0.3s ease;
+        }
+        .btn-hover:hover .btn-icon {
+            color: white;
+        }
+
+
+/* Estilo de los elementos de la tecnología */
+.tech-item {
+    background-color: #1e281e; /* Fondo claro de los ítems de tecnología */
+    color: #6d976c; /* Color del texto */
+}
+
+/* Estilo de los enlaces de contacto */
+.contactbar a {
+    color: #00C853; /* Verde para los enlaces */
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #10110f; /* Fondo oscuro */
+    border-top: 1px solid #00C853; /* Borde superior verde */
+    color: #E8E8E8; /* Color del texto en el pie de página */
+}
+
