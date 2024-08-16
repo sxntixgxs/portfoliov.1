@@ -1,0 +1,20 @@
+[
+    {
+        "image": "/assets/images/image1.jpg",
+        "title": "Proyecto 1",
+        "description": "Descripción del proyecto 1.",
+        "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "image": "/assets/images/image2.jpg",
+        "title": "Proyecto 2",
+        "description": "Descripción del proyecto 2.",
+        "technologies": ["Python", "Django"]
+    },
+    {
+        "image": "/assets/images/image3.jpg",
+        "title": "Proyecto 3",
+        "description": "Descripción del proyecto 3.",
+        "technologies": ["Java", "Spring Boot"]
+    }
+]
