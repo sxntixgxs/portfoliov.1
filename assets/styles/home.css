@@ -23,13 +23,19 @@ img.rounded-full {
     color: #ffffff; /* Color blanco para los encabezados */
 }
 
-        /* Estilo personalizado para el ícono */
-        .btn-icon {
-            transition: color 0.3s ease;
-        }
-        .btn-hover:hover .btn-icon {
-            color: white;
-        }
+
+.email:hover .btn-icon,
+.email:hover span {
+    color: white; /* Cambia el color del ícono y el texto a blanco en hover */
+}
+
+/* Estilo personalizado para el ícono */
+.btn-icon {
+    transition: color 0.3s ease;
+}
+.btn-hover:hover .btn-icon {
+    color: white;
+}
 
 
 /* Estilo de los elementos de la tecnología */
