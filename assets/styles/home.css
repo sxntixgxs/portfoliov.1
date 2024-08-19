@@ -24,6 +24,30 @@ img.rounded-full {
 }
 
 
+.title-style {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #1e281e; /* Fondo claro de los ítems de tecnología */
+    color: #6d976c; /* Color del texto */
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.title-style:hover {
+    background-color: #4ade80;
+    color: white;
+}
+
+.card {
+    background-color: #1e281e;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
 .email:hover .btn-icon,
 .email:hover span {
     color: white; /* Cambia el color del ícono y el texto a blanco en hover */
