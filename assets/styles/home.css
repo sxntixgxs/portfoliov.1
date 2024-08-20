@@ -89,3 +89,93 @@ footer {
     border-top: 1px solid #00C853; /* Borde superior verde */
     color: #E8E8E8; /* Color del texto en el pie de página */
 }
+
+
+/* En tu archivo home.css o en otro archivo CSS */
+input:focus,
+textarea:focus {
+    color: #2d3748; /* Cambia este color por el que prefieras */
+}
+
+#response-message {
+    display: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+#response-message.text-green-600 {
+    color: #38a169; /* Color verde */
+}
+
+#response-message.text-red-600 {
+    color: #e53e3e; /* Color rojo */
+}
+
+#modal {
+    /* display: none; Inicialmente oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    justify-content: center;
+    align-items: center;
+}
+
+#modal div {
+    background:#1e281e;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+#modal svg {
+    color: #38a169; /* Color verde para el icono de check */
+}
+
+#particles-js{
+    height: 100%;
+    z-index: -1;
+    background: #10110f;
+    position: fixed;
+}
+.project-card {
+    position: relative;
+    overflow: hidden;
+    background-color: #1e281e;
+    color:#6d976c;
+    border: 2px solid transparent; /* Borde blanco en hover */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card:hover {
+    border-color: white;
+}
+
+.project-card img {
+    transition: opacity 0.3s ease;
+}
+
+.project-card .absolute {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover .absolute {
+    opacity: 1;
+}
+
+.project-card .text-white {
+    color: white;
+}
