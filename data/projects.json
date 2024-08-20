@@ -3,7 +3,7 @@
         "image": "assets//images//airport2.png",
         "link":"https://github.com/sxntixgxs/VuelosGlobales",
         "title": "Airport manager",
-        "description": " The project adopts a hexagonal architecture combined with vertical slicing, enabling modular design and scalability. The architecture separates concerns by organizing the code into distinct packages: domain for business entities and logic, application for use cases, and infrastructure for external interactions like databases and APIs. This structure enhances the system's maintainability and adaptability, ensuring clear boundaries between core functionalities and external services​ (GitHub).",
+        "description": " The project is constructed using hexagonal architecture combined with vertical slicing, enabling modular design and scalability. The architecture separates concerns by organizing the code into distinct packages: domain for business entities and logic, application for use cases, and infrastructure for external interactions like databases and APIs. This structure enhances the system's maintainability and adaptability, ensuring clear boundaries between core functionalities and external services​.",
         "technologies": ["JAVA", "MySQL"]
     },
     {   
@@ -17,7 +17,7 @@
         "image": "/assets/images/whatchat.png",
         "link":"https://whatchat.co/",
         "title": "Whatchat",
-        "description": "WatchChat is a comprehensive customer relationship management (CRM) platform designed to centralize and optimize the management of conversations across various social media channels. The platform integrates with popular messaging services like WhatsApp, Facebook, and Instagram, allowing businesses to handle multiple customer interactions in one place. WatchChat leverages APIs for seamless integration with existing systems like CRMs or customer data platforms (CDPs), enhancing communication strategies through real-time analytics, message segmentation, and customizable automation. The system also includes mobile apps for both Android and iOS, ensuring that teams can manage customer interactions on the go​ ",
+        "description": "WatchChat is a comprehensive customer relationship management (CRM) platform designed to centralize and optimize the management of conversations across various social media channels. The platform integrates popular messaging services like WhatsApp, Facebook, and Instagram, allowing businesses to handle multiple customer interactions in one place. WatchChat leverages APIs for seamless integration with existing systems like CRMs or customer data platforms (CDPs), enhancing communication strategies through real-time analytics, message segmentation, and customizable automation. The system also includes mobile apps for both Android and iOS, ensuring that teams can manage customer interactions on the go​ ",
         "technologies": ["WordPress", "React Native"]
     },
     {
