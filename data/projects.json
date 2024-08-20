@@ -1,20 +1,26 @@
 [
     {
-        "image": "/assets/images/image1.jpg",
-        "title": "Proyecto 1",
-        "description": "Descripción del proyecto 1.",
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        "image": "assets//images//airport.png",
+        "title": "Airport manager",
+        "description": "System with authentication role allows reserve flights, assign tripulation crew, assing pilots and plane.",
+        "technologies": ["JAVA", "MySQL"]
     },
     {
-        "image": "/assets/images/image2.jpg",
-        "title": "Proyecto 2",
+        "image": "assets//images//automotriz.png",
+        "title": "Auto repair shop",
         "description": "Descripción del proyecto 2.",
-        "technologies": ["Python", "Django"]
+        "technologies": ["MySQL"]
     },
     {
-        "image": "/assets/images/image3.jpg",
-        "title": "Proyecto 3",
+        "image": "/assets/images/whatchat.png",
+        "title": "Whatchat",
         "description": "Descripción del proyecto 3.",
-        "technologies": ["Java", "Spring Boot"]
+        "technologies": ["WordPress", "React Native"]
+    },
+    {
+        "image": "/assets/images/prime.png",
+        "title": "PRIME",
+        "description": "Descripción del proyecto 3.",
+        "technologies": ["JavaScript", "CSS", "HTML","Chart.js"]
     }
 ]

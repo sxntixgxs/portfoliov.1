@@ -23,7 +23,6 @@ img.rounded-full {
     color: #ffffff; /* Color blanco para los encabezados */
 }
 
-
 .title-style {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -46,11 +45,23 @@ img.rounded-full {
     margin-bottom: 2rem;
 }
 
+.tech-item-card {
+    background-color: #4ade80;
+    color: #1e281e; /* Color del texto más oscuro para contraste */
+    border-radius: 0.5rem;
+    border: 2px solid #4ade80; /* Borde del mismo color que el fondo */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
+.tech-item-card:hover {
+    background-color: transparent; /* Elimina el color de fondo en hover */
+    color: #4ade80; /* Cambia el color del texto para resaltar el borde */
+    border-color: #4ade80; /* Mantiene el borde visible */
+    transform: scale(1.05); /* Agranda el elemento en hover */
+}
 
-.email:hover .btn-icon,
-.email:hover span {
-    color: white; /* Cambia el color del ícono y el texto a blanco en hover */
+.desc {
+    color: #6d976c;
 }
 
 /* Estilo personalizado para el ícono */
@@ -60,7 +71,6 @@ img.rounded-full {
 .btn-hover:hover .btn-icon {
     color: white;
 }
-
 
 /* Estilo de los elementos de la tecnología */
 .tech-item {
@@ -79,4 +89,3 @@ footer {
     border-top: 1px solid #00C853; /* Borde superior verde */
     color: #E8E8E8; /* Color del texto en el pie de página */
 }
-
