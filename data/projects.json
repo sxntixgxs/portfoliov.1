@@ -1,7 +1,7 @@
 [
     {
         "image": "assets//images//airport2.png",
-        "link":"https://github.com/sxntixgxs/ProyectoTallerDB",
+        "link":"https://github.com/sxntixgxs/VuelosGlobales",
         "title": "Airport manager",
         "description": " The project adopts a hexagonal architecture combined with vertical slicing, enabling modular design and scalability. The architecture separates concerns by organizing the code into distinct packages: domain for business entities and logic, application for use cases, and infrastructure for external interactions like databases and APIs. This structure enhances the system's maintainability and adaptability, ensuring clear boundaries between core functionalities and external services​ (GitHub).",
         "technologies": ["JAVA", "MySQL"]
